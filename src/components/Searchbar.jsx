@@ -8,7 +8,7 @@ function Searchbar() {
   const dispatch = useDispatch();
   return (
     <div className='searchbar-container'>
-        <input onChange={(e) => dispatch(search(e.target.value))} value={filtered} className='searchbar' placeholder='Search...' type="text" />
+        <input onBlur={(e) => e.target.placeholder = "Search..."} onFocus={(e) => e.target.placeholder = ""}  onChange={(e) => dispatch(search(e.target.value))} value={filtered} className='searchbar' placeholder='Search...' type="text" />
     </div>
   )
 }
