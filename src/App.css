@@ -116,6 +116,7 @@ box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
     align-items: center;
     justify-items: center;
     row-gap: 30px;
+    column-gap: 75px;
     margin-top: 30px;
     
 }
@@ -131,4 +132,14 @@ box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
 box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.openedInputContainer{
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+border: none;
+}
+.openedInputContainer:focus{
+    outline: none;
 }

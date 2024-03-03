@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { search } from '../redux/todos/notesSlice'
+import { search } from '../../redux/todos/notesSlice'
 
 function Searchbar() {
 
